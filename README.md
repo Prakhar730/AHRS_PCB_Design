@@ -23,11 +23,16 @@ The project files are organized into two primary directories, separating the har
 
 .
 ├── PCB + Schematics/
+
 │   ├── AHRSNEW.kicad_pro         # Main KiCad project file
+
 │   ├── AHRSNEW.kicad_sch         # Top-level schematic design
+
 │   └── AHRSNEW.kicad_pcb         # 4-layer PCB layout
+
 │
 └── Power Supply Simulation/
+
     └── Draft1.asc                # LTspice simulation schematic
 
 PCB + Schematics/: This directory holds the complete KiCad project. It contains the source files for the schematic design and the final 4-layer PCB layout.
