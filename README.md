@@ -18,24 +18,22 @@ Welcome to the repository for my AHRS PCB project. [cite_start]This project was 
 
 ---
 
-## 📂 Repository Structure
-
-The project is organized into two main directories: one for the KiCad PCB and schematic files, and another for the power supply circuit simulations.
+📂 Repository Structure
+The project files are organized into two primary directories, separating the hardware design from the circuit simulation.
 
 .
 ├── PCB + Schematics/
 │   ├── AHRSNEW.kicad_pro         # Main KiCad project file
-│   ├── AHRSNEW.kicad_sch         # Top-level schematic file
-│   └── AHRSNEW.kicad_pcb         # PCB layout file
+│   ├── AHRSNEW.kicad_sch         # Top-level schematic design
+│   └── AHRSNEW.kicad_pcb         # 4-layer PCB layout
 │
 └── Power Supply Simulation/
-   └── Draft1.asc                # LTspice simulation schematic
+    └── Draft1.asc                # LTspice simulation schematic
+
+PCB + Schematics/: This directory holds the complete KiCad project. It contains the source files for the schematic design and the final 4-layer PCB layout.
 
 
--   [cite_start]`PCB + Schematics/`: Contains the complete **KiCad** project, including the schematic design, PCB layout, symbol libraries, and custom footprints[cite: 81, 96, 98].
--   [cite_start]`Power Supply Simulation/`: Contains **LTspice** files used to simulate and validate the onboard buck converter, ensuring a stable 3.3V power supply for the microcontroller and sensors[cite: 82, 94].
-
----
+Power Supply Simulation/: This directory contains the LTspice simulation files. These were used to validate the power supply circuit and ensure stable operation under expected load conditions
 
 ## ✨ Featured Hardware & Tools
 
