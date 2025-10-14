@@ -21,7 +21,7 @@ Welcome to the repository for my AHRS PCB project. [cite_start]This project was 
 📂 Repository Structure
 The project files are organized into two primary directories, separating the hardware design from the circuit simulation.
 
-.
+
 ├── PCB + Schematics/
 
 │   ├── AHRSNEW.kicad_pro         # Main KiCad project file
