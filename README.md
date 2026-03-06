@@ -27,7 +27,7 @@ Welcome to the official repository for my AHRS project. This project documents t
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 -   **High-Performance Sensing**: Integrates the `LSM9DS1` 9-axis IMU, which includes a 3-axis accelerometer, 3-axis gyroscope, and 3-axis magnetometer on a single chip.
 -   **Powerful Processing**: Driven by an `STM32F401RET6` ARM Cortex-M4 microcontroller, providing ample computational power for real-time sensor fusion algorithms.
@@ -37,7 +37,7 @@ Welcome to the official repository for my AHRS project. This project documents t
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 The project files are organized into two primary directories, separating the hardware design from the circuit simulation.
 
@@ -56,7 +56,7 @@ AHRS-PCB-Design/
 
 ---
 
-## 🛠️ Technical Specifications
+##  Technical Specifications
 
 ### Hardware Components
 
@@ -74,7 +74,7 @@ AHRS-PCB-Design/
 
 ---
 
-## 🧠 Challenges & Solutions
+##  Challenges & Solutions
 
 -   **Interpreting Complex Datasheets**
     -   *Solution*: Adopted a structured approach, breaking down datasheets section-by-section and cross-referencing with application notes and online forums.
@@ -87,7 +87,7 @@ AHRS-PCB-Design/
 
 ---
 
-## 📬 Contact & Acknowledgments
+##  Contact & Acknowledgments
 
 This project was completed under the expert supervision of Prof. Yatindra Nath Singh at IIT Kanpur. I extend my sincere gratitude to my mentors, Mr. Nagendra Kumar and Mr. Rahul Bhattacharyya, for their continuous technical guidance and support.
 
